@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  async function fetchBurn() {
+    const response = await fetch(
+      "https://cors-anywhere.herokuapp.com/https://yomomma-api.herokuapp.com/jokes",
+      {
+        method: "GET",
+      }
+    );
+    const data = await response.json();
+    console.log(data);
+  }
+  return <button onClick={fetchBurn}>Click me</button>;
 }
 
 export default App;
