@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Wrapper from "./components/Layout/Wrapper";
 import Fact from "./components/Fact";
+import Header from "./components/Layout/Header";
 
 function App() {
   const [fact, setFact] = useState(null);
@@ -24,6 +25,7 @@ function App() {
   }
   return (
     <React.Fragment>
+      <Header></Header>
       <main>
         <Wrapper>
           {fact ? <Fact id={fact.id} fact={fact.fact}></Fact> : ""}

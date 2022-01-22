@@ -132,7 +132,12 @@ table {
 /* end of css reset */
 
 html {
+  font-size: 100%;
   background-image: url("./images/bg-image.png");
   background-position: center;
   background-repeat: repeat;
+}
+
+header {
+  background-color: #1d1c1c;
 }
