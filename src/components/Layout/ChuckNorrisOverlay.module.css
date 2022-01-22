@@ -1,0 +1,8 @@
+.kicking-bg {
+  width: auto;
+  height: 380px;
+  background: url("../../images/chuck-left.png") no-repeat,
+    url("../../images/chuck-right.png") no-repeat;
+  background-size: 45% auto, 45% auto;
+  background-position-x: 0%, 100%;
+}

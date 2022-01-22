@@ -1,5 +1,10 @@
 .wrapper {
-  margin: 0 auto;
   max-width: 650px;
-  background-image: url("../../images/bg-image.png");
+  /* background: url("../../images/chuck-left.png") no-repeat,
+    url("../../images/chuck-right.png") no-repeat;
+  background-size: 40% auto, 40% auto;
+  background-position-y: bottom; */
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
 }

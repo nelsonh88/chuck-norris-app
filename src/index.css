@@ -141,3 +141,15 @@ html {
 header {
   background-color: #1d1c1c;
 }
+
+main {
+  margin-top: 50px;
+}
+
+h2 {
+  color: #ffc400;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  height: 150px;
+}
