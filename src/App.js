@@ -5,6 +5,7 @@ import Fact from "./components/Fact";
 import Header from "./components/Layout/Header";
 import Button from "./components/Button";
 import ChuckNorrisOverlay from "./components/Layout/ChuckNorrisOverlay";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   const [fact, setFact] = useState(null);
@@ -39,6 +40,7 @@ function App() {
           <ChuckNorrisOverlay></ChuckNorrisOverlay>
         </Wrapper>
       </main>
+      <Footer></Footer>
     </React.Fragment>
   );
 }

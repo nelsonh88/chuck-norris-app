@@ -1,0 +1,27 @@
+.footer {
+  position: relative;
+}
+
+.footer-content {
+  position: absolute;
+  padding: 15px 20px 15px 20px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(29 28 28 / 60%);
+}
+
+.footer-content p {
+  padding-bottom: 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.footer-content a {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-decoration: underline #ffc400;
+}
